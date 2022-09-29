@@ -5,6 +5,10 @@ public class recursiveExp {
 
         if(n==1){
             return a;
+
+        }
+        if(n==0){
+            return 1;
         }
 
         return exp(a,n-1)*exp(a,1);
