@@ -14,8 +14,7 @@ public class DesenMetot {
             System.out.print(output + " ");
             f(output);
 
-            int temp;
-            temp = output + 5;
+            int temp = output + 5;
             if(temp<=x){
                 System.out.print(temp + " ");
             }
