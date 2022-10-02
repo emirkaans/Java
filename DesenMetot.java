@@ -9,7 +9,7 @@ public class DesenMetot {
 
     static void f(int x){
         int output = x -5;
-        if(output>-4) {
+        if(output>=-4) {
 
             System.out.print(output + " ");
             f(output);
