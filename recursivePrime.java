@@ -28,8 +28,6 @@ static void asal(int x){
 
         System.out.print("Pozitif Bir Tam Sayı Giriniz : ");
         int input = s.nextInt();
-
-       asal(input);
-       
+        asal(input);
     }
 }
